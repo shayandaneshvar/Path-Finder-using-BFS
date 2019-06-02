@@ -36,8 +36,8 @@ public class Node {
 
     @Override
     public String toString() {
-        return "Current node :" + "(" + node.getKey() + "," + node.getValue() + ")" +
+        return "+ Current node :" + "(" + node.getKey() + "," + node.getValue() + ")" +
                 "\n" +
-                "pastNodes:{" + pastNodes + '}';
+                "- pastNodes:{" + pastNodes + '}';
     }
 }
